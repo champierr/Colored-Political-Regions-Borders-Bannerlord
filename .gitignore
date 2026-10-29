@@ -1,0 +1,9 @@
+# build output
+bin/
+obj/
+release/
+
+# rendered video (it goes to the GitHub release, not into git)
+docs/video/
+__pycache__/
+*.pyc

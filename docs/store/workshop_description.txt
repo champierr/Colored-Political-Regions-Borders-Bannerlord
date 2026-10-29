@@ -1,0 +1,51 @@
+[h1]Colored Political Regions & Borders[/h1]
+A political map for Mount & Blade II: Bannerlord. Every town, castle and village region on the campaign map takes the colour of the kingdom (or clan) that owns it, with a dark border line and a soft glow of each side's colour.
+
+[h2]Features[/h2]
+[list]
+[*][b]Zoom out:[/b] every kingdom in its own colour.
+[*][b]Zoom in:[/b] the normal terrain; the borders and the glow stay.
+[*][b]Always up to date:[/b] when a town or castle changes hands, the map recolours itself within a few seconds. New kingdoms, rebel clans and your own clan get their colours too.
+[*][b]Ctrl + 1[/b] on the campaign map: colour strength (0-100 %), saved for every game.
+[*]At night the colours are dimmer. Sea and lakes are not coloured.
+[*]Does not change your saved games. No other mod needed.
+[/list]
+
+[h2]How to use[/h2]
+Subscribe, then in the launcher: Singleplayer > Mods > tick [b]Colored Political Regions & Borders[/b] > Play. A CAUTION window about unverified code is normal for mods with their own code: click Confirm. After loading a campaign, "CPR&B: political map ready" appears at the bottom left.
+
+[h2]Compatibility[/h2]
+[b]Tested and stable:[/b] Bannerlord v1.4.8, Sandbox campaign.
+[b]Not tested yet:[/b] other game versions, the War Sails DLC and other mods. Please tell me in the comments how it works for you!
+The map is read from the game while you play, so mods with other maps may well work.
+
+[h2]Problems?[/h2]
+Settings and a log are in Documents\Mount and Blade II Bannerlord\Configs\ (ColoredPoliticalRegionsBorders.txt / .log). Please attach the .log to bug reports.
+
+Source code: {REPO}
+Nexus Mods (manual download): {NEXUS}
+Warband version: https://www.nexusmods.com/mbwarband/mods/6853
+
+[h1]Türkçe[/h1]
+Mount & Blade II: Bannerlord için politik harita. Sefer haritasındaki her şehir, kale ve köy bölgesi, onu elinde tutan krallığın (ya da klanın) rengini alır; sınırlarda koyu bir çizgi ve iki yanında her tarafın kendi renginde hafif bir hüzme vardır.
+
+[h2]Özellikler[/h2]
+[list]
+[*][b]Uzaklaşınca:[/b] her krallık kendi renginde.
+[*][b]Yakınlaşınca:[/b] normal arazi; sınırlar ve hüzme kalır.
+[*][b]Her zaman güncel:[/b] bir şehir ya da kale el değiştirince harita birkaç saniye içinde kendiliğinden yeniden boyanır. Yeni krallıklar, isyancı klanlar ve kendi klanın da kendi rengini alır.
+[*]Sefer haritasında [b]Ctrl + 1[/b]: renk gücü (%0-100), her oyun için kaydedilir.
+[*]Gece renkler daha soluktur. Deniz ve göller boyanmaz.
+[*]Kayıtlı oyunlarını değiştirmez. Başka bir mod gerektirmez.
+[/list]
+
+[h2]Nasıl kullanılır[/h2]
+Abone ol, sonra launcher'da: Singleplayer > Mods > [b]Colored Political Regions & Borders[/b]'ı işaretle > Play. Doğrulanmamış kodla ilgili CAUTION penceresi kendi kodu olan modlarda normaldir: Confirm'e tıkla. Seferi yükleyince sol altta "CPR&B: political map ready" yazısı çıkar.
+
+[h2]Uyumluluk[/h2]
+[b]Test edildi ve stabil:[/b] Bannerlord v1.4.8, Sandbox seferi.
+[b]Henüz test edilmedi:[/b] diğer oyun sürümleri, War Sails DLC'si ve diğer modlar. Nasıl çalıştığını yorumlara yazarsan sevinirim!
+Harita oyun sırasında oyunun kendisinden okunur, bu yüzden başka haritalı modlarda da çalışması muhtemeldir.
+
+[h2]Sorun mu var?[/h2]
+Ayar ve log dosyası Belgeler\Mount and Blade II Bannerlord\Configs\ klasöründe (ColoredPoliticalRegionsBorders.txt / .log). Hata bildirirken .log dosyasını ekle.

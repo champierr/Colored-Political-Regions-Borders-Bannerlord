@@ -1,0 +1,106 @@
+[center][size=6][b]Colored Political Regions & Borders[/b][/size]
+[size=4]A political map for Mount & Blade II: Bannerlord[/size][/center]
+
+Every town, castle and village region on the campaign map takes the colour of the kingdom (or clan) that owns it. Kingdoms are separated by a dark border line with a soft glow in each side's colour. Zoom out and you see a political map; zoom in and you see the normal terrain, with the borders still there.
+
+[size=5][b]Features[/b][/size]
+[list]
+[*][b]Zoom out:[/b] every kingdom in its own colour (taken from the game's own kingdom colours).
+[*][b]Zoom in:[/b] the colour fades away and you see the normal terrain. The borders and the glow stay.
+[*][b]Always up to date:[/b] when a town or castle changes hands, its region and villages take the new owner's colour within a few seconds. New kingdoms, rebel clans and your own clan get their colours too.
+[*][b]Ctrl + 1:[/b] type the colour strength (0-100 %). The setting is saved and kept for every game.
+[*]Follows the light: at night the colours are dimmer.
+[*]Sea and lakes are not coloured.
+[*]Does [b]not[/b] change your saved games and needs no other mod.
+[/list]
+
+[size=5][b]How to install[/b][/size]
+[list=1]
+[*]Download the file from the [b]Files[/b] tab and open the zip (right-click > [i]Extract All...[/i]).
+[*]Open your Bannerlord [i]Modules[/i] folder: Steam > Library > right-click [i]Mount & Blade II: Bannerlord[/i] > Manage > Browse local files > [i]Modules[/i].
+[*]Copy the [i]ColoredPoliticalRegionsBorders[/i] folder from the zip into [i]Modules[/i].
+Check: [i]Modules\ColoredPoliticalRegionsBorders\SubModule.xml[/i] must exist.
+[*]Start Bannerlord. In the launcher click [i]Singleplayer[/i] > [i]Mods[/i], tick [b]Colored Political Regions & Borders[/b] and click [i]Play[/i].
+[*]A [i]CAUTION[/i] window may say you are loading unverified code. Bannerlord shows it for every mod with its own program code. Click [i]Confirm[/i].
+[*]Start or load a campaign. After a few seconds the message [i]"CPR&B: political map ready"[/i] appears at the bottom left.
+[/list]
+There is a one minute install video in the Files tab (optional file) and a [b]HOW_TO_INSTALL.txt[/b] in the zip.
+[b]Steam Workshop:[/b] if you prefer, subscribe on the Steam Workshop instead (link below); then skip the steps above.
+
+[b]Uninstall:[/b] untick the mod in the launcher or delete the folder [i]Modules\ColoredPoliticalRegionsBorders[/i]. Your saves keep working (Bannerlord may say a mod is missing; just continue).
+
+[size=5][b]Compatibility[/b][/size]
+[b]Tested and stable:[/b] Bannerlord v1.4.8 (Steam), Sandbox campaign.
+[b]Not tested yet:[/b] other game versions, the War Sails DLC and other mods. Please write in the comments how it works for you!
+[list]
+[*]The map is read from the game while you play (settlements, kingdoms, colours, coasts), nothing is made for Calradia only, so mods with other maps may well work.
+[*]The mod adds no game logic: it only draws on the campaign map.
+[*]After a game update the launcher may say the mod was made for another version; usually it still works.
+[/list]
+
+[size=5][b]Problems?[/b][/size]
+Settings and a log file are in [i]Documents\Mount and Blade II Bannerlord\Configs\[/i] ([i]ColoredPoliticalRegionsBorders.txt[/i] and [i].log[/i]). If something is wrong, please attach the .log file to your report.
+
+[size=5][b]Links[/b][/size]
+[list]
+[*]Source code: [url=https://{REPO}]{REPO}[/url]
+[*]Steam Workshop: {WORKSHOP}
+[*]Warband version: [url=https://www.nexusmods.com/mbwarband/mods/6853]Colored Political Regions & Borders for Warband[/url]
+[/list]
+
+[size=5][b]Credits[/b][/size]
+Mount & Blade II: Bannerlord is by TaleWorlds Entertainment.
+
+[line]
+
+[center][size=6][b]Türkçe[/b][/size][/center]
+
+Sefer haritasındaki her şehir, kale ve köy bölgesi, onu elinde tutan krallığın (ya da klanın) rengini alır. Krallıklar arasında koyu bir sınır çizgisi ve iki yanında her tarafın kendi renginde hafif bir hüzme vardır. Uzaklaşınca politik haritayı, yakınlaşınca normal araziyi görürsün; sınırlar her zaman kalır.
+
+[size=5][b]Özellikler[/b][/size]
+[list]
+[*][b]Uzaklaşınca:[/b] her krallık kendi renginde (oyunun kendi krallık renklerinden alınır).
+[*][b]Yakınlaşınca:[/b] renk kaybolur, normal arazi görünür. Sınırlar ve hüzme kalır.
+[*][b]Her zaman güncel:[/b] bir şehir ya da kale el değiştirince bölgesi ve köyleri birkaç saniye içinde yeni sahibinin rengini alır. Yeni krallıklar, isyancı klanlar ve kendi klanın da kendi rengini alır.
+[*][b]Ctrl + 1:[/b] renk gücünü yaz (%0-100). Ayar kaydedilir ve her oyunda geçerli olur.
+[*]Işığa uyar: gece renkler daha soluktur.
+[*]Deniz ve göller boyanmaz.
+[*]Kayıtlı oyunlarını [b]değiştirmez[/b], başka bir mod gerektirmez.
+[/list]
+
+[size=5][b]Nasıl kurulur[/b][/size]
+[list=1]
+[*]Dosyayı [b]Files[/b] (Dosyalar) sekmesinden indir ve zip'i aç (sağ tık > [i]Tümünü ayıkla...[/i]).
+[*]Bannerlord'un [i]Modules[/i] klasörünü aç: Steam > Kütüphane > [i]Mount & Blade II: Bannerlord[/i]'a sağ tıkla > Yönet > Yerel dosyalara göz at > [i]Modules[/i].
+[*]Zip'teki [i]ColoredPoliticalRegionsBorders[/i] klasörünü [i]Modules[/i]'ün içine kopyala.
+Kontrol: [i]Modules\ColoredPoliticalRegionsBorders\SubModule.xml[/i] dosyası olmalı.
+[*]Bannerlord'u başlat. Launcher'da [i]Singleplayer[/i] > [i]Mods[/i]'a tıkla, [b]Colored Political Regions & Borders[/b]'ı işaretle ve [i]Play[/i]'e tıkla.
+[*]Doğrulanmamış kod yüklediğini söyleyen bir [i]CAUTION[/i] penceresi çıkabilir. Bannerlord bunu kendi program kodu olan her mod için gösterir. [i]Confirm[/i]'e tıkla.
+[*]Sefer başlat ya da kaydını yükle. Birkaç saniye sonra sol altta [i]"CPR&B: political map ready"[/i] yazısı çıkar.
+[/list]
+Files sekmesinde bir dakikalık kurulum videosu (isteğe bağlı dosya), zip'in içinde de [b]HOW_TO_INSTALL.txt[/b] var.
+[b]Steam Atölyesi:[/b] istersen bunun yerine Steam Atölyesi'nden abone ol (link aşağıda); o zaman yukarıdaki adımlara gerek yok.
+
+[b]Kaldırma:[/b] launcher'da işaretini kaldır ya da [i]Modules\ColoredPoliticalRegionsBorders[/i] klasörünü sil. Kayıtların açılmaya devam eder (Bannerlord bir modun eksik olduğunu söyleyebilir; devam de).
+
+[size=5][b]Uyumluluk[/b][/size]
+[b]Test edildi ve stabil:[/b] Bannerlord v1.4.8 (Steam), Sandbox seferi.
+[b]Henüz test edilmedi:[/b] diğer oyun sürümleri, War Sails DLC'si ve diğer modlar. Nasıl çalıştığını yorumlara yazarsan sevinirim!
+[list]
+[*]Harita oyun sırasında oyunun kendisinden okunur (yerleşim yerleri, krallıklar, renkler, kıyılar); sadece Calradia'ya özel bir şey yoktur, başka haritalı modlarda da çalışması muhtemeldir.
+[*]Mod oyuna kural eklemez, sadece sefer haritasına çizer.
+[*]Oyun güncellenince launcher modun başka bir sürüm için yapıldığını söyleyebilir; genelde yine çalışır.
+[/list]
+
+[size=5][b]Sorun mu var?[/b][/size]
+Ayar ve log dosyası [i]Belgeler\Mount and Blade II Bannerlord\Configs\[/i] klasöründe ([i]ColoredPoliticalRegionsBorders.txt[/i] ve [i].log[/i]). Bir sorun olursa lütfen bildirimine .log dosyasını ekle.
+
+[size=5][b]Linkler[/b][/size]
+[list]
+[*]Kaynak kod: [url=https://{REPO}]{REPO}[/url]
+[*]Steam Atölyesi: {WORKSHOP}
+[*]Warband sürümü: [url=https://www.nexusmods.com/mbwarband/mods/6853]Colored Political Regions & Borders (Warband)[/url]
+[/list]
+
+[size=5][b]Emeği geçenler[/b][/size]
+Mount & Blade II: Bannerlord, TaleWorlds Entertainment'a aittir.

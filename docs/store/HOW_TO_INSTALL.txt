@@ -1,0 +1,156 @@
+=====================================================================
+ Colored Political Regions & Borders (Bannerlord)  -  HOW TO INSTALL
+ (Türkçe anlatım aşağıda / Turkish instructions below)
+=====================================================================
+
+WHAT YOU NEED
+  - Mount & Blade II: Bannerlord v1.4.8 on Windows (Steam).
+  - Nothing else. No other mod is needed.
+
+---------------------------------------------------------------------
+ STEP 1 - Find the "Modules" folder
+---------------------------------------------------------------------
+  1. Open Steam > Library.
+  2. Right-click "Mount & Blade II: Bannerlord" > Manage >
+     Browse local files.
+  3. A folder opens. Open the "Modules" folder in it.
+
+---------------------------------------------------------------------
+ STEP 2 - Copy the mod
+---------------------------------------------------------------------
+  1. Right-click the downloaded zip > "Extract All..." > Extract.
+  2. In the extracted files there is a folder called
+     "ColoredPoliticalRegionsBorders". Copy that whole folder into
+     the "Modules" folder from step 1.
+  3. Check: this file must exist:
+       Modules\ColoredPoliticalRegionsBorders\SubModule.xml
+
+---------------------------------------------------------------------
+ STEP 3 - Turn the mod on
+---------------------------------------------------------------------
+  1. Start Bannerlord from Steam. The small start window (launcher)
+     opens.
+  2. Click "Singleplayer", then the "Mods" tab.
+  3. Tick "Colored Political Regions & Borders".
+  4. Click "Play".
+  5. A "CAUTION" window may say that you are loading unverified code.
+     Bannerlord shows this for every mod that has its own program
+     code. Click "Confirm".
+
+---------------------------------------------------------------------
+ STEP 4 - Play
+---------------------------------------------------------------------
+  1. Start a new campaign or load a saved game (both work).
+  2. On the campaign map, after a few seconds the message
+     "CPR&B: political map ready" appears at the bottom left.
+  3. Zoom out with the mouse wheel: every kingdom has its colour.
+     Zoom in: the normal terrain, with dark borders and a glow of
+     each side's colour.
+
+  Change the colour strength:
+     Press Ctrl + 1 on the campaign map, type a number from 0 to 100
+     and click OK. The setting is saved and kept for every game.
+
+---------------------------------------------------------------------
+ UNINSTALL
+---------------------------------------------------------------------
+  Untick the mod in the launcher, or delete the folder
+  Modules\ColoredPoliticalRegionsBorders.
+  The mod does not write anything into your saved games, so your
+  saves keep working without it. (When loading, Bannerlord may say
+  that a mod is missing; just continue.)
+
+---------------------------------------------------------------------
+ GOOD TO KNOW
+---------------------------------------------------------------------
+  - Made and tested for Bannerlord v1.4.8 (Steam, Sandbox campaign).
+    Other game versions, the War Sails DLC and other mods have not
+    been tested yet. Please tell us how it works!
+  - After a game update the launcher may warn that the mod was made
+    for another version. Usually it still works; an update of the
+    mod will follow.
+  - Settings and a log file are in:
+      Documents\Mount and Blade II Bannerlord\Configs\
+      ColoredPoliticalRegionsBorders.txt / .log
+    If something goes wrong, please send the .log file.
+
+  https://github.com/champierr/Colored-Political-Regions-Borders
+
+
+=====================================================================
+ Colored Political Regions & Borders (Bannerlord)  -  NASIL KURULUR
+=====================================================================
+
+GEREKENLER
+  - Windows'ta Mount & Blade II: Bannerlord v1.4.8 (Steam).
+  - Başka hiçbir şey. Başka bir mod gerekmez.
+
+---------------------------------------------------------------------
+ ADIM 1 - "Modules" klasörünü bul
+---------------------------------------------------------------------
+  1. Steam > Kütüphane'yi aç.
+  2. "Mount & Blade II: Bannerlord"a sağ tıkla > Yönet >
+     Yerel dosyalara göz at.
+  3. Bir klasör açılır. İçindeki "Modules" klasörünü aç.
+
+---------------------------------------------------------------------
+ ADIM 2 - Modu kopyala
+---------------------------------------------------------------------
+  1. İndirdiğin zip'e sağ tıkla > "Tümünü ayıkla..." > Ayıkla.
+  2. Çıkan dosyaların içinde "ColoredPoliticalRegionsBorders" adlı
+     bir klasör var. Bu klasörün tamamını 1. adımdaki "Modules"
+     klasörünün içine kopyala.
+  3. Kontrol: şu dosya olmalı:
+       Modules\ColoredPoliticalRegionsBorders\SubModule.xml
+
+---------------------------------------------------------------------
+ ADIM 3 - Modu aç
+---------------------------------------------------------------------
+  1. Bannerlord'u Steam'den başlat. Küçük başlangıç penceresi
+     (launcher) açılır.
+  2. "Singleplayer"a, sonra "Mods" sekmesine tıkla.
+  3. "Colored Political Regions & Borders" kutucuğunu işaretle.
+  4. "Play"e tıkla.
+  5. "CAUTION" penceresi doğrulanmamış kod yüklediğini söyleyebilir.
+     Bannerlord bunu kendi program kodu olan her mod için gösterir.
+     "Confirm"e tıkla.
+
+---------------------------------------------------------------------
+ ADIM 4 - Oyna
+---------------------------------------------------------------------
+  1. Yeni bir sefer başlat ya da kayıtlı oyununu yükle (ikisi de
+     olur).
+  2. Sefer haritasında birkaç saniye sonra sol altta
+     "CPR&B: political map ready" yazısı çıkar.
+  3. Fare tekerleğiyle uzaklaş: her krallık kendi renginde.
+     Yakınlaş: normal arazi, koyu sınırlar ve sınırın iki yanında
+     kendi renginde hüzme.
+
+  Renk gücünü değiştirmek:
+     Sefer haritasında Ctrl + 1'e bas, 0 ile 100 arası bir sayı yaz
+     ve OK'e tıkla. Ayar kaydedilir ve her oyunda geçerli olur.
+
+---------------------------------------------------------------------
+ KALDIRMA
+---------------------------------------------------------------------
+  Launcher'da modun işaretini kaldır ya da
+  Modules\ColoredPoliticalRegionsBorders klasörünü sil.
+  Mod kayıtlı oyunlarına hiçbir şey yazmaz, kayıtların mod olmadan
+  da açılır. (Yüklerken Bannerlord bir modun eksik olduğunu
+  söyleyebilir; devam et demen yeterli.)
+
+---------------------------------------------------------------------
+ BİLMEKTE FAYDA VAR
+---------------------------------------------------------------------
+  - Bannerlord v1.4.8 için yapıldı ve test edildi (Steam, Sandbox
+    seferi). Diğer oyun sürümleri, War Sails DLC'si ve diğer modlar
+    henüz test edilmedi. Nasıl çalıştığını yazarsan sevinirim!
+  - Oyun güncellenince launcher modun başka bir sürüm için
+    yapıldığını söyleyebilir. Genelde yine çalışır; modun güncellemesi
+    gelecek.
+  - Ayar ve log dosyası şurada:
+      Belgeler\Mount and Blade II Bannerlord\Configs\
+      ColoredPoliticalRegionsBorders.txt / .log
+    Bir sorun olursa lütfen .log dosyasını gönder.
+
+  https://github.com/champierr/Colored-Political-Regions-Borders
