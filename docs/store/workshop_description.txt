@@ -22,9 +22,9 @@ The map is read from the game while you play, so mods with other maps may well w
 [h2]Problems?[/h2]
 Settings and a log are in Documents\Mount and Blade II Bannerlord\Configs\ (ColoredPoliticalRegionsBorders.txt / .log). Please attach the .log to bug reports.
 
-Source code: {REPO}
-Nexus Mods (manual download): {NEXUS}
-Warband version: https://www.nexusmods.com/mbwarband/mods/6853
+Source code: [url={REPO}]{REPO}[/url]
+Nexus Mods (manual download): [url={NEXUS}]{NEXUS}[/url]
+Warband version: [url=https://www.nexusmods.com/mbwarband/mods/6853]https://www.nexusmods.com/mbwarband/mods/6853[/url]
 
 [h1]Türkçe[/h1]
 Mount & Blade II: Bannerlord için politik harita. Sefer haritasındaki her şehir, kale ve köy bölgesi, onu elinde tutan krallığın (ya da klanın) rengini alır; sınırlarda koyu bir çizgi ve iki yanında her tarafın kendi renginde hafif bir hüzme vardır.

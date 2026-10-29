@@ -43,8 +43,8 @@ Settings and a log file are in [i]Documents\Mount and Blade II Bannerlord\Config
 
 [size=5][b]Links[/b][/size]
 [list]
-[*]Source code: [url=https://{REPO}]{REPO}[/url]
-[*]Steam Workshop: {WORKSHOP}
+[*]Source code: [url={REPO}]{REPO}[/url]
+[*]Steam Workshop: [url={WORKSHOP}]{WORKSHOP}[/url]
 [*]Warband version: [url=https://www.nexusmods.com/mbwarband/mods/6853]Colored Political Regions & Borders for Warband[/url]
 [/list]
 
@@ -97,8 +97,8 @@ Ayar ve log dosyası [i]Belgeler\Mount and Blade II Bannerlord\Configs\[/i] klas
 
 [size=5][b]Linkler[/b][/size]
 [list]
-[*]Kaynak kod: [url=https://{REPO}]{REPO}[/url]
-[*]Steam Atölyesi: {WORKSHOP}
+[*]Kaynak kod: [url={REPO}]{REPO}[/url]
+[*]Steam Atölyesi: [url={WORKSHOP}]{WORKSHOP}[/url]
 [*]Warband sürümü: [url=https://www.nexusmods.com/mbwarband/mods/6853]Colored Political Regions & Borders (Warband)[/url]
 [/list]
 

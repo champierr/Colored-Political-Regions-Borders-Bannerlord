@@ -10,6 +10,7 @@ Output (release/ is not in git):
         HOW_TO_INSTALL.txt
     release/workshop/WorkshopCreate.xml, WorkshopUpdate.xml, upload_to_workshop.bat, update_workshop.bat
         for TaleWorlds.MountAndBlade.SteamWorkshop.exe (in the game's bin folder)
+    release/nexus_description.txt   the Nexus Mods description with the links of docs/store/links.txt filled in
 """
 import os
 import re
@@ -48,6 +49,9 @@ def main():
     print("module:", module)
     print("zip:   ", zip_path, os.path.getsize(zip_path), "bytes")
     workshop(module, version)
+    nexus = os.path.join(ROOT, "release", "nexus_description.txt")
+    open(nexus, "w", encoding="utf-8").write(store_text("nexus_description.txt"))
+    print("nexus: ", nexus)
 
 
 # ---- Steam Workshop: files for TaleWorlds.MountAndBlade.SteamWorkshop.exe ------------------------------
@@ -61,14 +65,24 @@ def xml_value(s):
             .replace("\r", "").replace("\n", "&#10;"))
 
 
+def links():
+    path = os.path.join(ROOT, "docs", "store", "links.txt")
+    return dict(l.strip().split("=", 1) for l in open(path, encoding="utf-8") if "=" in l and not l.startswith("#"))
+
+
+def store_text(name):
+    """docs/store/<name> with {REPO}, {NEXUS}, {WORKSHOP} ... filled in from links.txt."""
+    text = open(os.path.join(ROOT, "docs", "store", name), encoding="utf-8").read()
+    for key, value in links().items():
+        text = text.replace("{" + key + "}", value)
+    return text
+
+
 def workshop(module, version):
     out = os.path.join(ROOT, "release", "workshop")
     os.makedirs(out, exist_ok=True)
     image = os.path.join(ROOT, "docs", "images", "workshop_preview.jpg")
-    description = open(os.path.join(ROOT, "docs", "store", "workshop_description.txt"), encoding="utf-8").read()
-    links = dict(l.strip().split("=", 1) for l in open(os.path.join(ROOT, "docs", "store", "links.txt"), encoding="utf-8") if "=" in l and not l.startswith("#"))
-    for key, value in links.items():
-        description = description.replace("{" + key + "}", value)
+    description = store_text("workshop_description.txt")
     tags = "\n".join('\t\t\t<Tag Value="%s"/>' % t for t in TAGS)
     create = """<Tasks>
 \t<CreateItem/>
@@ -90,13 +104,15 @@ def workshop(module, version):
 \t</GetItem>
 \t<UpdateItem>
 \t\t<ModuleFolder Value="%s"/>
+\t\t<ItemDescription Value="%s"/>
 \t\t<ChangeNotes Value="%s"/>
 \t\t<Tags>
 %s
 \t\t</Tags>
 \t</UpdateItem>
 </Tasks>
-""" % (links.get("WORKSHOP_ID", "PUT_THE_ITEM_ID_HERE"), xml_value(module), xml_value("v" + version), tags)
+""" % (links().get("WORKSHOP_ID", "PUT_THE_ITEM_ID_HERE"), xml_value(module), xml_value(description.strip()),
+       xml_value("v" + version), tags)
     open(os.path.join(out, "WorkshopUpdate.xml"), "w", encoding="utf-8").write(update)
     tool = os.path.join(GAME, "bin", "Win64_Shipping_Client", "TaleWorlds.MountAndBlade.SteamWorkshop.exe")
     for name, xml in (("upload_to_workshop.bat", "WorkshopCreate.xml"), ("update_workshop.bat", "WorkshopUpdate.xml")):
