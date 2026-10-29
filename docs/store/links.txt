@@ -1,6 +1,6 @@
 # Links used in the store texts (tools/package.py fills them into the Workshop description).
 # Fill NEXUS and WORKSHOP in when the pages exist; WORKSHOP_ID is the number in the Workshop item address.
 REPO=https://github.com/champierr/Colored-Political-Regions-Borders-Bannerlord
-NEXUS=https://www.nexusmods.com/mountandblade2bannerlord
-WORKSHOP=https://steamcommunity.com/app/261550/workshop/
-WORKSHOP_ID=PUT_THE_ITEM_ID_HERE
+NEXUS=https://www.nexusmods.com/mountandblade2bannerlord/mods/14368
+WORKSHOP=https://steamcommunity.com/sharedfiles/filedetails/?id=3829655051
+WORKSHOP_ID=3829655051

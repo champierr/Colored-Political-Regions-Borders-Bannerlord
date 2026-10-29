@@ -5,7 +5,8 @@
 **[Download the mod (zip)](https://github.com/champierr/Colored-Political-Regions-Borders-Bannerlord/releases/latest/download/ColoredPoliticalRegionsBorders_Bannerlord_v1.0.0.zip)**
  · [All downloads](https://github.com/champierr/Colored-Political-Regions-Borders-Bannerlord/releases/latest)
  · [Install video](https://github.com/champierr/Colored-Political-Regions-Borders-Bannerlord/releases/latest/download/cprb_bannerlord_install.mp4)
- · Steam Workshop and Nexus Mods pages: coming soon
+ · [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3829655051)
+ · [Nexus Mods](https://www.nexusmods.com/mountandblade2bannerlord/mods/14368)
  · [Warband version](https://github.com/champierr/Colored-Political-Regions-Borders)
 
 > **Tested and stable on Bannerlord v1.4.8 (Steam), Sandbox campaign.** Other game versions, the War Sails
@@ -28,9 +29,9 @@ normal terrain while the borders and the glow stay.
 
 ## Install
 
-**Steam Workshop:** subscribe, then tick the mod in the launcher (coming soon).
+**[Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3829655051):** subscribe, then tick the mod in the launcher.
 
-**Manual (GitHub / Nexus Mods)** – there is a [1.5 minute video](https://github.com/champierr/Colored-Political-Regions-Borders-Bannerlord/releases/latest/download/cprb_bannerlord_install.mp4):
+**Manual ([GitHub](https://github.com/champierr/Colored-Political-Regions-Borders-Bannerlord/releases/latest) / [Nexus Mods](https://www.nexusmods.com/mountandblade2bannerlord/mods/14368))** – there is a [1.5 minute video](https://github.com/champierr/Colored-Political-Regions-Borders-Bannerlord/releases/latest/download/cprb_bannerlord_install.mp4):
 1. Download the zip and extract it (right-click > *Extract All...*).
 2. Open the game's `Modules` folder: Steam > Library > right-click *Mount & Blade II: Bannerlord* > Manage >
    Browse local files > `Modules`.
@@ -96,7 +97,7 @@ boyanır.
 **Test durumu:** Bannerlord v1.4.8 (Steam), Sandbox seferinde test edildi ve stabil. Diğer oyun sürümleri, War
 Sails DLC'si ve diğer modlar henüz test edilmedi.
 
-**Kurulum:** Steam Atölyesi'nden abone ol (yakında) ya da zip'i indir, içindeki `ColoredPoliticalRegionsBorders`
+**Kurulum:** [Steam Atölyesi](https://steamcommunity.com/sharedfiles/filedetails/?id=3829655051)'nden abone ol ya da zip'i buradan veya [Nexus Mods](https://www.nexusmods.com/mountandblade2bannerlord/mods/14368)'tan indir, içindeki `ColoredPoliticalRegionsBorders`
 klasörünü oyunun `Modules` klasörüne kopyala (Steam > Kütüphane > Bannerlord'a sağ tıkla > Yönet > Yerel dosyalara
 göz at > `Modules`), launcher'da *Singleplayer* > *Mods* sekmesinde modu işaretle ve *Play*'e bas. Adım adım
 [kurulum videosu](https://github.com/champierr/Colored-Political-Regions-Borders-Bannerlord/releases/latest/download/cprb_bannerlord_install.mp4)
