@@ -2,7 +2,7 @@
 
 ![Colored Political Regions & Borders](docs/images/cover.jpg)
 
-**[Download the mod (zip)](https://github.com/champierr/Colored-Political-Regions-Borders-Bannerlord/releases/latest/download/ColoredPoliticalRegionsBorders_Bannerlord_v1.0.0.zip)**
+**[Download the mod (zip)](https://github.com/champierr/Colored-Political-Regions-Borders-Bannerlord/releases/latest/download/ColoredPoliticalRegionsBorders_Bannerlord_v1.0.1.zip)**
  · [All downloads](https://github.com/champierr/Colored-Political-Regions-Borders-Bannerlord/releases/latest)
  · [Install video](https://github.com/champierr/Colored-Political-Regions-Borders-Bannerlord/releases/latest/download/cprb_bannerlord_install.mp4)
  · [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3829655051)
@@ -21,7 +21,7 @@ normal terrain while the borders and the glow stay.
 
 - Colours are the game's own kingdom and clan colours (lifted a little when too dark to read on terrain).
 - When a town or castle changes hands, the map recolours itself within a few seconds. New kingdoms, rebel
-  clans and the player's clan get their colours too.
+  clans and the player's clan get their colours too. If your clan is not in a kingdom, changing its banner colour recolours your land as well.
 - **Ctrl+1** on the campaign map: colour strength (0-100 %), saved for every game.
 - Follows the day and night light. Sea and lakes are left untouched.
 - Does not change saved games and needs no other mod. Nothing is made for Calradia only: the map, the
@@ -92,7 +92,7 @@ Mount & Blade II: Bannerlord is by TaleWorlds Entertainment.
 ve köy bölgesi onu elinde tutan krallığın (ya da klanın) rengini alır; krallıklar arasında koyu bir sınır ve iki
 yanında her tarafın kendi renginde hafif bir hüzme çizilir. Yakınlaşınca renk kaybolur ve normal arazi görünür;
 sınırlar ve hüzme kalır. Bir şehir ya da kale el değiştirince harita birkaç saniye içinde kendiliğinden yeniden
-boyanır.
+boyanır. Bir krallığa bağlı değilsen, sancak rengini değiştirince bölgelerinin rengi de değişir.
 
 **Test durumu:** Bannerlord v1.4.8 (Steam), Sandbox seferinde test edildi ve stabil. Diğer oyun sürümleri, War
 Sails DLC'si ve diğer modlar henüz test edilmedi.

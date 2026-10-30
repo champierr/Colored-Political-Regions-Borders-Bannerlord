@@ -7,7 +7,7 @@ Every town, castle and village region on the campaign map takes the colour of th
 [list]
 [*][b]Zoom out:[/b] every kingdom in its own colour (taken from the game's own kingdom colours).
 [*][b]Zoom in:[/b] the colour fades away and you see the normal terrain. The borders and the glow stay.
-[*][b]Always up to date:[/b] when a town or castle changes hands, its region and villages take the new owner's colour within a few seconds. New kingdoms, rebel clans and your own clan get their colours too.
+[*][b]Always up to date:[/b] when a town or castle changes hands, its region and villages take the new owner's colour within a few seconds. New kingdoms, rebel clans and your own clan get their colours too. If your clan is not in a kingdom, changing its banner colour recolours your land as well.
 [*][b]Ctrl + 1:[/b] type the colour strength (0-100 %). The setting is saved and kept for every game.
 [*]Follows the light: at night the colours are dimmer.
 [*]Sea and lakes are not coloured.
@@ -61,7 +61,7 @@ Sefer haritasındaki her şehir, kale ve köy bölgesi, onu elinde tutan krallı
 [list]
 [*][b]Uzaklaşınca:[/b] her krallık kendi renginde (oyunun kendi krallık renklerinden alınır).
 [*][b]Yakınlaşınca:[/b] renk kaybolur, normal arazi görünür. Sınırlar ve hüzme kalır.
-[*][b]Her zaman güncel:[/b] bir şehir ya da kale el değiştirince bölgesi ve köyleri birkaç saniye içinde yeni sahibinin rengini alır. Yeni krallıklar, isyancı klanlar ve kendi klanın da kendi rengini alır.
+[*][b]Her zaman güncel:[/b] bir şehir ya da kale el değiştirince bölgesi ve köyleri birkaç saniye içinde yeni sahibinin rengini alır. Yeni krallıklar, isyancı klanlar ve kendi klanın da kendi rengini alır. Bir krallığa bağlı değilsen, sancak rengini değiştirince bölgelerinin rengi de değişir.
 [*][b]Ctrl + 1:[/b] renk gücünü yaz (%0-100). Ayar kaydedilir ve her oyunda geçerli olur.
 [*]Işığa uyar: gece renkler daha soluktur.
 [*]Deniz ve göller boyanmaz.

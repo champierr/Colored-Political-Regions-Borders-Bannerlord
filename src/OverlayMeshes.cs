@@ -243,8 +243,13 @@ namespace CPRB.Bannerlord
             for (int p = 0; p < _pax.Length; p++)
                 _piecesByChunk[ChunkOf((_pax[p] + _pbx[p]) * 0.5f, (_pay[p] + _pby[p]) * 0.5f, BorderChunks)].Add(p);
 
-            // the shown width is rebuilt now (part by part, so the old lines stay until replaced);
-            // the other widths are dropped and built again when the zoom needs them
+            RequeueBorders();
+        }
+
+        // the shown width is rebuilt now (part by part, so the old lines stay until replaced);
+        // the other widths are dropped and built again when the zoom needs them
+        private void RequeueBorders()
+        {
             for (int l = 0; l < BorderLevels.Length; l++)
             {
                 _borderQueued[l] = false;
@@ -255,6 +260,36 @@ namespace CPRB.Bannerlord
                 QueueBorders(_shownLevel);
             if (_wantedLevel >= 0 && _wantedLevel != _shownLevel)
                 QueueBorders(_wantedLevel);
+        }
+
+        // Before a battle the game frees the map's GPU memory (MapScreen.ClearGPUMemory calls
+        // Texture.ReleaseGpuMemories and SceneLayer.ClearRuntimeGPUMemory). Textures from the game files are
+        // loaded again from disk, but our white texture is made from bytes: it stays empty, and every
+        // multiplying mesh turns black (seen as black squares along the borders after a battle). So when the
+        // map is back: a new texture and new materials, and every mesh built again.
+        public void Recover()
+        {
+            Material oldMaterial = _material;
+            bool wasLoaded = _white != null && _white.IsLoaded();
+            if (!CreateMaterial())
+                return;
+            // until its part is rebuilt, a mesh keeps the old material: give that one the new texture too
+            if (oldMaterial != null)
+                oldMaterial.SetTexture(Material.MBTextureType.DiffuseMap, _white);
+            Log.Info("back on the map after a mission (old texture loaded: " + wasLoaded + "): building the meshes again");
+            if (_fillData == null)
+                return;
+            foreach (Part[] parts in new[] { _fill, _fillAdd, _glow, _glowAdd })
+                foreach (Part part in parts)
+                    if (part != null)
+                        part.Hash = 0;
+            QueueFillAndGlow();
+            if (_shownLevel >= 0)
+                foreach (Part part in _borders[_shownLevel])
+                    if (part != null)
+                        part.Hash = 0;
+            if (_piecesByChunk != null)
+                RequeueBorders();
         }
 
         private void QueueBorders(int level)

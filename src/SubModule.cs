@@ -16,7 +16,7 @@ namespace CPRB.Bannerlord
     // Ctrl + 1 on the campaign map: colour strength in percent, saved in the settings file.
     public sealed class SubModule : MBSubModuleBase
     {
-        public const string Version = "1.0.0";
+        public const string Version = "1.0.1";
         public const string Title = "Colored Political Regions & Borders";
 
         private static SubModule _instance;
@@ -68,6 +68,14 @@ namespace CPRB.Bannerlord
             {
                 _overlay = null;
                 _overlayScene = null;
+                return;
+            }
+            // In a battle (or any other mission) the map is not drawn, and before a battle the game frees
+            // the map's GPU memory. The overlay waits and makes its meshes again when the map is back.
+            if (Mission.Current != null)
+            {
+                if (_overlay != null)
+                    _overlay.OnMission();
                 return;
             }
             var mapScene = campaign.MapSceneWrapper as MapScene;

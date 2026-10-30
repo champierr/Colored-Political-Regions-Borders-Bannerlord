@@ -78,6 +78,18 @@ def store_text(name):
     return text
 
 
+def change_notes(version):
+    """The CHANGELOG.md section of this version, for the Workshop's change notes."""
+    lines, inside = [], False
+    for line in open(os.path.join(ROOT, "CHANGELOG.md"), encoding="utf-8"):
+        if line.startswith("## "):
+            inside = line.startswith("## v" + version + " ") or line.strip() == "## v" + version
+            continue
+        if inside and line.strip():
+            lines.append(line.rstrip())
+    return "v%s\n%s" % (version, "\n".join(lines)) if lines else "v" + version
+
+
 def workshop(module, version):
     out = os.path.join(ROOT, "release", "workshop")
     os.makedirs(out, exist_ok=True)
@@ -112,7 +124,7 @@ def workshop(module, version):
 \t</UpdateItem>
 </Tasks>
 """ % (links().get("WORKSHOP_ID", "PUT_THE_ITEM_ID_HERE"), xml_value(module), xml_value(description.strip()),
-       xml_value("v" + version), tags)
+       xml_value(change_notes(version)), tags)
     open(os.path.join(out, "WorkshopUpdate.xml"), "w", encoding="utf-8").write(update)
     tool = os.path.join(GAME, "bin", "Win64_Shipping_Client", "TaleWorlds.MountAndBlade.SteamWorkshop.exe")
     for name, xml in (("upload_to_workshop.bat", "WorkshopCreate.xml"), ("update_workshop.bat", "WorkshopUpdate.xml")):

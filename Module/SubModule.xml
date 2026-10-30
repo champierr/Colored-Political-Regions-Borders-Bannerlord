@@ -2,7 +2,7 @@
 <Module>
 	<Name value="Colored Political Regions &amp; Borders"/>
 	<Id value="ColoredPoliticalRegionsBorders"/>
-	<Version value="v1.0.0"/>
+	<Version value="v1.0.1"/>
 	<SingleplayerModule value="true"/>
 	<MultiplayerModule value="false"/>
 	<DefaultModule value="false"/>

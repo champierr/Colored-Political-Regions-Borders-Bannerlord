@@ -5,7 +5,7 @@ A political map for Mount & Blade II: Bannerlord. Every town, castle and village
 [list]
 [*][b]Zoom out:[/b] every kingdom in its own colour.
 [*][b]Zoom in:[/b] the normal terrain; the borders and the glow stay.
-[*][b]Always up to date:[/b] when a town or castle changes hands, the map recolours itself within a few seconds. New kingdoms, rebel clans and your own clan get their colours too.
+[*][b]Always up to date:[/b] when a town or castle changes hands, the map recolours itself within a few seconds. New kingdoms, rebel clans and your own clan get their colours too. If your clan is not in a kingdom, changing its banner colour recolours your land as well.
 [*][b]Ctrl + 1[/b] on the campaign map: colour strength (0-100 %), saved for every game.
 [*]At night the colours are dimmer. Sea and lakes are not coloured.
 [*]Does not change your saved games. No other mod needed.
@@ -33,7 +33,7 @@ Mount & Blade II: Bannerlord için politik harita. Sefer haritasındaki her şeh
 [list]
 [*][b]Uzaklaşınca:[/b] her krallık kendi renginde.
 [*][b]Yakınlaşınca:[/b] normal arazi; sınırlar ve hüzme kalır.
-[*][b]Her zaman güncel:[/b] bir şehir ya da kale el değiştirince harita birkaç saniye içinde kendiliğinden yeniden boyanır. Yeni krallıklar, isyancı klanlar ve kendi klanın da kendi rengini alır.
+[*][b]Her zaman güncel:[/b] bir şehir ya da kale el değiştirince harita birkaç saniye içinde kendiliğinden yeniden boyanır. Yeni krallıklar, isyancı klanlar ve kendi klanın da kendi rengini alır. Bir krallığa bağlı değilsen, sancak rengini değiştirince bölgelerinin rengi de değişir.
 [*]Sefer haritasında [b]Ctrl + 1[/b]: renk gücü (%0-100), her oyun için kaydedilir.
 [*]Gece renkler daha soluktur. Deniz ve göller boyanmaz.
 [*]Kayıtlı oyunlarını değiştirmez. Başka bir mod gerektirmez.

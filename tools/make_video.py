@@ -7,6 +7,7 @@ docs/video/stills/ instead, to check the layout quickly. Needs Pillow and imagei
 The game shots are the real screenshots in docs/screens/.
 """
 import os
+import re
 import sys
 from PIL import Image, ImageDraw, ImageEnhance, ImageFilter
 
@@ -21,10 +22,11 @@ FPS = 30
 FADE = 0.35
 
 REPO = "github.com/champierr/Colored-Political-Regions-Borders-Bannerlord"
-ZIP = "ColoredPoliticalRegionsBorders_Bannerlord_v1.0.0.zip"
-EXTRACTED = "ColoredPoliticalRegionsBorders_Bannerlord_v1.0.0"
+VERSION = re.search(r'<Version value="v([\d.]+)"', open(os.path.join(ROOT, "Module", "SubModule.xml"), encoding="utf-8").read()).group(1)
+ZIP = "ColoredPoliticalRegionsBorders_Bannerlord_v%s.zip" % VERSION
+EXTRACTED = "ColoredPoliticalRegionsBorders_Bannerlord_v%s" % VERSION
 FOLDER = "ColoredPoliticalRegionsBorders"
-DATE = "10/29/2026 20:45"
+DATE = "10/30/2026 10:20"
 GOLD = (226, 190, 110)
 PARCHMENT = (240, 230, 210)
 
@@ -174,7 +176,7 @@ def browser_base(downloading):
     d.rectangle((x0 + 1, py, x1 - 1, py + 70), fill=(36, 41, 47))
     text(d, (x0 + 60, py + 35), " / ".join(REPO.split("/")[1:3]), ui_bold(20), (240, 240, 240), "lm")
     cy = py + 110
-    text(d, (x0 + 60, cy), "Colored Political Regions & Borders \u2013 Bannerlord v1.0.0", ui_bold(30), (25, 25, 25), "lm")
+    text(d, (x0 + 60, cy), "Colored Political Regions & Borders \u2013 Bannerlord v" + VERSION, ui_bold(30), (25, 25, 25), "lm")
     d.rounded_rectangle((x0 + 60, cy + 30, x0 + 140, cy + 58), 12, outline=(40, 160, 70), width=2)
     text(d, (x0 + 100, cy + 44), "Latest", ui(14), (40, 140, 60), "mm")
     for i, w in enumerate((900, 1160, 760)):
@@ -485,7 +487,7 @@ def _copy_frame(copied, inside):
 LAUNCHER = (260, 80, 1660, 880)
 MODS = [("Native", "v1.4.8", True), ("SandBox Core", "v1.4.8", True), ("Birth and Aging Options", "v1.4.8", False),
         ("Custom Battle", "v1.4.8", True), ("Sandbox", "v1.4.8", True), ("Story Mode", "v1.4.8", True),
-        ("Colored Political Regions & Borders", "v1.0.0", False)]
+        ("Colored Political Regions & Borders", "v" + VERSION, False)]
 MODS_TAB = (LAUNCHER[0] + 160, LAUNCHER[1] + 150, LAUNCHER[0] + 260, LAUNCHER[1] + 186)
 PLAY = (LAUNCHER[2] - 330, LAUNCHER[3] - 110, LAUNCHER[2] - 50, LAUNCHER[3] - 40)
 ROW0 = LAUNCHER[1] + 250

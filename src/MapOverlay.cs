@@ -44,6 +44,7 @@ namespace CPRB.Bannerlord
         private int _builds;
 
         private OverlayMeshes _meshes;
+        private bool _afterMission;
         private float _halfWidth;
         private float _time, _pendingSince;
         private const double MeshBudgetMs = 5.0;   // mesh building per frame
@@ -59,9 +60,21 @@ namespace CPRB.Bannerlord
 
         public Scene Scene => _scene;
 
+        // called every frame of a mission instead of Tick
+        public void OnMission()
+        {
+            _afterMission = true;
+        }
+
         public void Tick(float dt)
         {
             _time += dt;
+            if (_afterMission)
+            {
+                _afterMission = false;
+                if (_meshes != null)
+                    _meshes.Recover();
+            }
             if (_spacing <= 0f && !Layout())
                 return;
             if (!_landReady)
